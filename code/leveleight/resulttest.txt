@@ -1,0 +1,13 @@
+quadric span dimension mod p: 1154
+eigenspace dimensions: [14, 5, 10, 5, 12, 5, 10, 5]  total 66
+span dimension by character: [134, 152, 135, 152, 142, 152, 135, 152]  total 1154
+initial gaps: {4: 548} (44s)
+1: first (0, 4, 4, 0, 0) second (0, 2, 5, 0, 1): 448 cubics; gaps [520] (95s)
+2: first (0, 4, 4, 0, 0) second (0, 2, 5, 0, 0): 71 cubics; gaps [520] (18s)
+3: first (0, 4, 4, 0, 0) second (0, 0, 5, 1, 0): 448 cubics; gaps [492] (63s)
+4: first (0, 4, 4, 0, 0) second (0, 6, 5, 0, 0): 71 cubics; gaps [492] (18s)
+5: first (0, 4, 4, 0, 0) second (0, 6, 5, 0, 1): 448 cubics; gaps [492] (81s)
+6: first (0, 4, 4, 0, 0) second (0, 2, 5, 1, 0): 448 cubics; gaps [488] (62s)
+7: first (0, 4, 4, 0, 0) second (0, 5, 5, 0, 1): 448 cubics; gaps [461] (82s)
+8: first (0, 4, 4, 0, 0) second (0, 4, 5, 0, 0): 71 cubics; gaps [461] (18s)
+final gaps: {4: 461}

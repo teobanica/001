@@ -1,0 +1,3 @@
+31 Oct 13:41  hadamard.py joint
+  T6                     dim Fix(G_H)(2),(3) = 2,5   joint k=4,5: [14, 42]
+  H6^q, q=1              dim Fix(G_H)(2),(3) = 2,5   joint k=4,5: [14, 42]

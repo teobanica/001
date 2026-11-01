@@ -1,0 +1,241 @@
+01 Nov 01:12  length 20: words not killed by a single relation, two-step outcome
+aaabcaabcbbacaabcccb  killed in two steps: p = 1, y = b, through bbabcaabcbbacaabcccb
+aaabcaabcbbacccbaacb  killed in two steps: p = 1, y = b, through bbabcaabcbbacccbaacb
+aaabcaabcccabbcbaacb  killed in two steps: p = 1, y = b, through bbabcaabcccabbcbaacb
+aaabccabcccbaccbabbc  killed in two steps: p = 1, y = b, through bbabccabcccbaccbabbc
+aaabccacbbabccabcccb  killed in two steps: p = 1, y = b, through bbabccacbbabccabcccb
+aaabccacbbacbbbcabbc  killed in two steps: p = 1, y = b, through bbabccacbbacbbbcabbc
+aaabcccbaacabbcbaacb  killed in two steps: p = 1, y = b, through bbabcccbaacabbcbaacb
+aaabcccbaccbabbcaccb  killed in two steps: p = 1, y = b, through bbabcccbaccbabbcaccb
+aaacbaacbbbaccbcaabc  killed in two steps: p = 1, y = b, through bbacbaacbbbaccbcaabc
+aaacbaacbccabaacbbbc  killed in two steps: p = 1, y = b, through bbacbaacbccabaacbbbc
+aaacbaacbccabbbcaabc  killed in two steps: p = 1, y = b, through bbacbaacbccabbbcaabc
+aaacbbabccabcccbaccb  killed in two steps: p = 1, y = b, through bbacbbabccabcccbaccb
+aaacbbabccacbbacbbbc  killed in two steps: p = 1, y = b, through bbacbbabccacbbacbbbc
+aaacbbacbbbcabbcaccb  killed in two steps: p = 1, y = b, through bbacbbacbbbcabbcaccb
+aaacbbbcaabaccbcaabc  killed in two steps: p = 1, y = b, through bbacbbbcaabaccbcaabc
+aaacbbbcabbcaccbabbc  killed in two steps: p = 1, y = b, through bbacbbbcabbcaccbabbc
+aabaccbacbbaccbaccbc  killed in two steps: p = 1, y = b, through bbbaccbacbbaccbaccbc baaaccbacbbaccbaccbc babbccbacbbaccbaccbc babaccaacbbaccbaccbc babaccbbcbbaccbaccbc
+aabaccbacccabbbaccbc  killed in two steps: p = 1, y = b, through bbbaccbacccabbbaccbc baaaccbacccabbbaccbc babbccbacccabbbaccbc babaccaacccabbbaccbc babaccbbcccabbbaccbc
+aabaccbacccabccabbbc  killed in two steps: p = 1, y = b, through bbbaccbacccabccabbbc baaaccbacccabccabbbc babbccbacccabccabbbc babaccaacccabccabbbc babaccbbcccabccabbbc
+aabaccbcaabcaaacbbbc  killed in two steps: p = 1, y = b, through bbbaccbcaabcaaacbbbc baaaccbcaabcaaacbbbc babbccbcaabcaaacbbbc babaccacaabcaaacbbbc
+aabaccbcaabcabbcaabc  killed in two steps: p = 1, y = b, through bbbaccbcaabcabbcaabc baaaccbcaabcabbcaabc babbccbcaabcabbcaabc babaccacaabcabbcaabc
+aabcaaacbaacbbbaccbc  killed in two steps: p = 1, y = b, through bbbcaaacbaacbbbaccbc baacaaacbaacbbbaccbc
+aabcaaacbaacbccabbbc  killed in two steps: p = 1, y = b, through bbbcaaacbaacbccabbbc baacaaacbaacbccabbbc
+aabcaaacbbbcaabaccbc  killed in two steps: p = 1, y = b, through bbbcaaacbbbcaabaccbc baacaaacbbbcaabaccbc
+aabcaabaccbcaabcabbc  killed in two steps: p = 1, y = b, through bbbcaabaccbcaabcabbc baacaabaccbcaabcabbc
+aabcaabcbbacaabcccba  killed in two steps: p = 1, y = b, through bbbcaabcbbacaabcccba baacaabcbbacaabcccba babcaabcbbacaabcccaa babcaabcbbacaabcccbb
+aabcaabcbbacccbaacba  killed in two steps: p = 1, y = b, through bbbcaabcbbacccbaacba baacaabcbbacccbaacba babcaabcbbacccbaacaa babcaabcbbacccbaacbb
+aabcaabccabcaabcbbac  killed in two steps: p = 1, y = b, through bbbcaabccabcaabcbbac baacaabccabcaabcbbac
+aabcaabcccabbcbaacba  killed in two steps: p = 1, y = b, through bbbcaabcccabbcbaacba baacaabcccabbcbaacba babcaabcccabbcbaacaa babcaabcccabbcbaacbb
+aabcabbcaabcaabaccbc  killed in two steps: p = 1, y = b, through bbbcabbcaabcaabaccbc baacabbcaabcaabaccbc
+aabcabbcaccbabbcabbc  killed in two steps: p = 1, y = b, through bbbcabbcaccbabbcabbc baacabbcaccbabbcabbc
+aabcbbacaabcaabccabc  killed in two steps: p = 1, y = b, through bbbcbbacaabcaabccabc baacbbacaabcaabccabc
+aabcbbacaabcccbaaabc  killed in two steps: p = 1, y = b, through bbbcbbacaabcccbaaabc baacbbacaabcccbaaabc
+aabcbbacbbaccbacbbac  killed in two steps: p = 1, y = b, through bbbcbbacbbaccbacbbac baacbbacbbaccbacbbac
+aabcbbacccabbbacbbac  killed in two steps: p = 1, y = b, through bbbcbbacccabbbacbbac baacbbacccabbbacbbac
+aabcbbacccbaacbaaabc  killed in two steps: p = 1, y = b, through bbbcbbacccbaacbaaabc baacbbacccbaacbaaabc
+aabccabcaabcbbacaabc  killed in two steps: p = 1, y = b, through bbbccabcaabcbbacaabc baaccabcaabcbbacaabc babccbbcaabcbbacaabc babccaacaabcbbacaabc
+aabccabccacbbabccabc  killed in two steps: p = 1, y = b, through bbbccabccacbbabccabc baaccabccacbbabccabc babccbbccacbbabccabc babccaaccacbbabccabc babccabccbcbbabccabc
+aabccabcccbaccbabbca  killed in two steps: p = 1, y = b, through bbbccabcccbaccbabbca baaccabcccbaccbabbca babccbbcccbaccbabbca babccaacccbaccbabbca babccabcccbaccbabbcb
+aabccacbbabccabcccba  killed in two steps: p = 1, y = b, through bbbccacbbabccabcccba baaccacbbabccabcccba babccbcbbabccabcccba babccacbbabccabcccaa babccacbbabccabcccbb
+aabccacbbacbbbcabbca  killed in two steps: p = 1, y = b, through bbbccacbbacbbbcabbca baaccacbbacbbbcabbca babccbcbbacbbbcabbca babccacbbacbbbcabbcb
+aabcccabbcabbbacbbac  killed in two steps: p = 1, y = b, through bbbcccabbcabbbacbbac baacccabbcabbbacbbac
+aabcccabbcbaacbaaabc  killed in two steps: p = 1, y = b, through bbbcccabbcbaacbaaabc baacccabbcbaacbaaabc
+aabcccbaaabcaabcbbac  killed in two steps: p = 1, y = b, through bbbcccbaaabcaabcbbac baacccbaaabcaabcbbac
+aabcccbaacabbcbaacba  killed in two steps: p = 1, y = b, through bbbcccbaacabbcbaacba baacccbaacabbcbaacba babcccbaacabbcbaacaa babcccbaacabbcbaacbb
+aabcccbaccbabbcaccba  killed in two steps: p = 1, y = b, through bbbcccbaccbabbcaccba baacccbaccbabbcaccba babcccbaccbabbcbccba babcccbaccbabbcaccaa babcccbaccbabbcaccbb
+aacabbcabbbacbbacccb  killed in two steps: p = 1, y = b, through bbcabbcabbbacbbacccb
+aacabbcabbbacccabbcb  killed in two steps: p = 1, y = b, through bbcabbcabbbacccabbcb
+aacabbcabccabbcabbcb  killed in two steps: p = 1, y = b, through bbcabbcabccabbcabbcb
+aacabbcbaacbaaabcccb  killed in two steps: p = 1, y = b, through bbcabbcbaacbaaabcccb
+aacabbcbaacbaccbaacb  killed in two steps: p = 1, y = b, through bbcabbcbaacbaccbaacb
+aacbaaabcaabcbbacccb  killed in two steps: p = 1, y = b, through bbcbaaabcaabcbbacccb
+aacbaaabcaabcccabbcb  killed in two steps: p = 1, y = b, through bbcbaaabcaabcccabbcb
+aacbaaabcccbaacabbcb  killed in two steps: p = 1, y = b, through bbcbaaabcccbaacabbcb
+aacbaacabbcbaacbaccb  killed in two steps: p = 1, y = b, through bbcbaacabbcbaacbaccb
+aacbaacbbacbaacbccab  killed in two steps: p = 1, y = b, through bbcbaacbbacbaacbccab
+aacbaacbbbaccbcaabca  killed in two steps: p = 1, y = b, through bbcbaacbbbaccbcaabca bacbaacbbbaccbcaabcb
+aacbaacbccabaacbbbca  killed in two steps: p = 1, y = b, through bbcbaacbccabaacbbbca bacbaacbccabaacbbbcb
+aacbaacbccabbbcaabca  killed in two steps: p = 1, y = b, through bbcbaacbccabbbcaabca bacbaacbccabbbcaabcb
+aacbaccbaacbaacabbcb  killed in two steps: p = 1, y = b, through bbcbaccbaacbaacabbcb
+aacbaccbabbcaccbaccb  killed in two steps: p = 1, y = b, through bbcbaccbabbcaccbaccb
+aacbbabccabcccbaccba  killed in two steps: p = 1, y = b, through bbcbbabccabcccbaccba bacbbabccabcccaaccba bacbbabccabcccbbccba bacbbabccabcccbaccaa bacbbabccabcccbaccbb
+aacbbabccacbbacbbbca  killed in two steps: p = 1, y = b, through bbcbbabccacbbacbbbca bacbbabccacbbacbbbcb
+aacbbacbaacbccabaacb  killed in two steps: p = 1, y = b, through bbcbbacbaacbccabaacb
+aacbbacbbabccacbbacb  killed in two steps: p = 1, y = b, through bbcbbacbbabccacbbacb
+aacbbacbbbcabbcaccba  killed in two steps: p = 1, y = b, through bbcbbacbbbcabbcaccba bacbbacbbbcabbcbccba bacbbacbbbcabbcaccaa bacbbacbbbcabbcaccbb
+aacbbbaccbacccabccab  killed in two steps: p = 1, y = b, through bbcbbbaccbacccabccab
+aacbbbaccbcaabcaaacb  killed in two steps: p = 1, y = b, through bbcbbbaccbcaabcaaacb
+aacbbbcaaacbaacbccab  killed in two steps: p = 1, y = b, through bbcbbbcaaacbaacbccab
+aacbbbcaabaccbcaabca  killed in two steps: p = 1, y = b, through bbcbbbcaabaccbcaabca bacbbbcaabaccbcaabcb
+aacbbbcabbcaccbabbca  killed in two steps: p = 1, y = b, through bbcbbbcabbcaccbabbca bacbbbcabbcaccbabbcb
+aacbccabaacbaacbbacb  killed in two steps: p = 1, y = b, through bbcbccabaacbaacbbacb
+aacbccabaacbbbcaaacb  killed in two steps: p = 1, y = b, through bbcbccabaacbbbcaaacb
+aacbccabbbacccabccab  killed in two steps: p = 1, y = b, through bbcbccabbbacccabccab
+aacbccabbbcaabcaaacb  killed in two steps: p = 1, y = b, through bbcbccabbbcaabcaaacb
+aacbccabccabbcabccab  killed in two steps: p = 1, y = b, through bbcbccabccabbcabccab
+abaacbaacbbacbaacbcc  killed in two steps: p = 1, y = b, through bbabcbaacbbacbaacbcc
+abaacbbbaccbacccabcc  killed in two steps: p = 1, y = b, through bbabcbbbaccbacccabcc
+abaacbbbcaaacbaacbcc  killed in two steps: p = 1, y = b, through bbabcbbbcaaacbaacbcc
+abaacbccabbbacccabcc  killed in two steps: p = 1, y = b, through bbabcbccabbbacccabcc
+abaacbccabccabbcabcc  killed in two steps: p = 1, y = b, through bbabcbccabccabbcabcc
+abaccbacbbaccbaccbca  killed in two steps: p = 1, y = b, through bbaccbacbbaccbaccbcb
+abaccbacccabbbaccbca  killed in two steps: p = 1, y = b, through bbaccbacccabbbaccbcb
+abaccbacccabccabbbca  killed in two steps: p = 1, y = b, through bbaccbacccabccabbbcb
+abaccbcaabcaaacbbbca  killed in two steps: p = 1, y = b, through bbaccbcaabcaaacbbbcb
+abaccbcaabcabbcaabca  killed in two steps: p = 1, y = b, through bbaccbcaabcabbcaabcb
+abbbacbbacaabcbbaccc  killed in two steps: p = 1, y = b, through bbabacbbacaabcbbaccc
+abbbacbbacaabcccabbc  killed in two steps: p = 1, y = b, through bbabacbbacaabcccabbc
+abbbacbbacccbaacabbc  killed in two steps: p = 1, y = b, through bbabacbbacccbaacabbc
+abbbaccbcaabaccbaccc  killed in two steps: p = 1, y = b, through bbabaccbcaabaccbaccc
+abbbacccabbcbaacabbc  killed in two steps: p = 1, y = b, through bbabacccabbcbaacabbc
+abbbacccabccabaacbcc  killed in two steps: p = 1, y = b, through bbabacccabccabaacbcc
+abbbcaabaccbacccabcc  killed in two steps: p = 1, y = b, through bbabcaabaccbacccabcc
+abbbcaabcaaacbaacbcc  killed in two steps: p = 1, y = b, through bbabcaabcaaacbaacbcc
+abbcaaabccabcccbaccb  killed in two steps: p = 1, y = b, through bbacaaabccabcccbaccb
+abbcaaabccacbbacbbbc  killed in two steps: p = 1, y = b, through bbacaaabccacbbacbbbc
+abbcaaacbbbcabbcaccb  killed in two steps: p = 1, y = b, through bbacaaacbbbcabbcaccb
+abbcaabcaabaccbcaabc  killed in two steps: p = 1, y = b, through bbacaabcaabaccbcaabc
+abbcaabcabbcaccbabbc  killed in two steps: p = 1, y = b, through bbacaabcabbcaccbabbc
+abbcabbbacbbacaabccc  killed in two steps: p = 1, y = b, through bbacabbbacbbacaabccc
+abbcabbbacbbacccbaac  killed in two steps: p = 1, y = b, through bbacabbbacbbacccbaac
+abbcabbbacccabbcbaac  killed in two steps: p = 1, y = b, through bbacabbbacccabbcbaac
+abbcabbcaabcabbcaccb  killed in two steps: p = 1, y = b, through bbacabbcaabcabbcaccb
+abbcabbcbaacabbcabcc  killed in two steps: p = 1, y = b, through bbacabbcbaacabbcabcc
+abbcabccabaacbccabcc  killed in two steps: p = 1, y = b, through bbacabccabaacbccabcc
+abbcabccabbcabbcbaac  killed in two steps: p = 1, y = b, through bbacabccabbcabbcbaac
+abbcaccbaaabcccbaccb  killed in two steps: p = 1, y = b, through bbacaccbaaabcccbaccb
+abbcaccbaaacbbacbbbc  killed in two steps: p = 1, y = b, through bbacaccbaaacbbacbbbc
+abbcaccbabbcaaacbbbc  killed in two steps: p = 1, y = b, through bbacaccbabbcaaacbbbc
+abbcaccbabbcabbcaabc  killed in two steps: p = 1, y = b, through bbacaccbabbcabbcaabc
+abbcaccbaccbaacbaccb  killed in two steps: p = 1, y = b, through bbacaccbaccbaacbaccb
+abbcbaacabbcabbbaccc  killed in two steps: p = 1, y = b, through bbacbaacabbcabbbaccc
+abbcbaacabbcabccabbc  killed in two steps: p = 1, y = b, through bbacbaacabbcabccabbc
+abbcbaacbaaabcaabccc  killed in two steps: p = 1, y = b, through bbacbaacbaaabcaabccc
+abbcbaacbaaabcccbaac  killed in two steps: p = 1, y = b, through bbacbaacbaaabcccbaac
+abbcbaacbaccbaacbaac  killed in two steps: p = 1, y = b, through bbacbaacbaccbaacbaac
+abcaaacbaacbbbaccbca  killed in two steps: p = 1, y = b, through bbcaaacbaacbbbaccbcb
+abcaaacbaacbccabbbca  killed in two steps: p = 1, y = b, through bbcaaacbaacbccabbbcb
+abcaaacbbbcaabaccbca  killed in two steps: p = 1, y = b, through bbcaaacbbbcaabaccbcb
+abcaabaccbcaabcabbca  killed in two steps: p = 1, y = b, through bbcaabaccbcaabcabbcb
+abcaabcbbacaabcaabcc  killed in two steps: p = 1, y = b, through bbcaabcbbacaabcbabcc
+abcaabcbbacaabcccbaa  killed in two steps: p = 1, y = b, through bbcaabcbbacaabcccbab
+abcaabcbbacccbaacbaa  killed in two steps: p = 1, y = b, through bbcaabcbbacccbaacbab
+abcaabccabcaabcbbaca  killed in two steps: p = 1, y = b, through bbcaabccabcaabcbbacb
+abcaabccabccacbbabcc  killed in two steps: p = 1, y = b, through bbcaabccabccacababcc
+abcaabcccabbcbaacbaa  killed in two steps: p = 1, y = b, through bbcaabcccabbcbaacbab
+abcabbcaabcaabaccbca  killed in two steps: p = 1, y = b, through bbcabbcaabcaabaccbcb
+abcabbcaccbabbcabbca  killed in two steps: p = 1, y = b, through bbcabbcaccbabbcabbcb
+abcbbacaabcaabccabca  killed in two steps: p = 1, y = b, through bbcbbacaabcaabccabcb
+abcbbacaabcccbaaabca  killed in two steps: p = 1, y = b, through bbcbbacaabcccbaaabcb
+abcbbacbbaccbacbbaca  killed in two steps: p = 1, y = b, through bbcbbacbbaccbacbbacb
+abcbbacccabbbacbbaca  killed in two steps: p = 1, y = b, through bbcbbacccabbbacbbacb
+abcbbacccbaacbaaabca  killed in two steps: p = 1, y = b, through bbcbbacccbaacbaaabcb
+abccabaacbbbaccbaccc  killed in two steps: p = 1, y = b, through bbccababcbbbaccbaccc
+abccabaacbccabbbaccc  killed in two steps: p = 1, y = b, through bbccababcbccabbbaccc
+abccabaacbccabccabbc  killed in two steps: p = 1, y = b, through bbccababcbccabccabbc
+abccabbbcaabaccbaccc  killed in two steps: p = 1, y = b, through bbccababcaabaccbaccc
+abccabbcabbcbaacabbc  killed in two steps: p = 1, y = b, through bbccabacabbcbaacabbc
+abccabbcabccabaacbcc  killed in two steps: p = 1, y = b, through bbccabacabccabaacbcc
+abccabcaabcbbacaabca  killed in two steps: p = 1, y = b, through bbccabcaabcbbacaabcb
+abccabcaabccabccacbb  killed in two steps: p = 1, y = b, through bbccabcaabccabccacab
+abccabccacbbabccabca  killed in two steps: p = 1, y = b, through bbccabccacbbabccabcb
+abccabcccbaaabccacbb  killed in two steps: p = 1, y = b, through bbccabcccbaaabccacab
+abccabcccbaccbaaacbb  killed in two steps: p = 1, y = b, through bbccabcccbaccbaaacab
+abccabcccbaccbabbcaa  killed in two steps: p = 1, y = b, through bbccabcccbaccbabbcab
+abccacbbabccabcaabcc  killed in two steps: p = 1, y = b, through bbccacbbabccabcbabcc
+abccacbbabccabcccbaa  killed in two steps: p = 1, y = b, through bbccacbbabccabcccbab
+abccacbbacbaacbbacbb  killed in two steps: p = 1, y = b, through bbccacbbacbaacbbacab
+abccacbbacbbbcaaacbb  killed in two steps: p = 1, y = b, through bbccacbbacbbbcaaacab
+abccacbbacbbbcabbcaa  killed in two steps: p = 1, y = b, through bbccacbbacbbbcabbcab
+abcccabbcabbbacbbaca  killed in two steps: p = 1, y = b, through bbcccabbcabbbacbbacb
+abcccabbcbaacbaaabca  killed in two steps: p = 1, y = b, through bbcccabbcbaacbaaabcb
+abcccbaaabcaabcbbaca  killed in two steps: p = 1, y = b, through bbcccbaaabcaabcbbacb
+abcccbaaabccacbbabcc  killed in two steps: p = 1, y = b, through bbcccbaaabccacababcc
+abcccbaacabbcbaacbaa  killed in two steps: p = 1, y = b, through bbcccbaacabbcbaacbab
+abcccbaccbaaacbbabcc  killed in two steps: p = 1, y = b, through bbcccbaccbaaacababcc
+abcccbaccbabbcaaabcc  killed in two steps: p = 1, y = b, through bbcccbaccbabbcababcc
+abcccbaccbabbcaccbaa  killed in two steps: p = 1, y = b, through bbcccbaccbabbcaccbab
+acaabcaabccabcaabcbb  killed in two steps: p = 1, y = b, through bcaabcaabccabcaabcab
+acaabcbbacbbaccbacbb  killed in two steps: p = 1, y = b, through bcaabcbbacbbaccbacab
+acaabcbbacccabbbacbb  killed in two steps: p = 1, y = b, through bcaabcbbacccabbbacab
+acaabcccabbcabbbacbb  killed in two steps: p = 1, y = b, through bcaabcccabbcabbbacab
+acaabcccbaaabcaabcbb  killed in two steps: p = 1, y = b, through bcaabcccbaaabcaabcab
+acabbcabbbacbbacccba  killed in two steps: p = 1, y = b, through bcabbcabbbacbbacccaa bcabbcabbbacbbacccbb
+acabbcabbbacccabbcba  killed in two steps: p = 1, y = b, through bcabbcabbbacccabbcaa bcabbcabbbacccabbcbb
+acabbcabccabbcabbcba  killed in two steps: p = 1, y = b, through bcabbcabccabbcabbcaa bcabbcabccabbcabbcbb
+acabbcbaacbaaabcccba  killed in two steps: p = 1, y = b, through bcabbcbaacbaaabcccaa bcabbcbaacbaaabcccbb
+acabbcbaacbaccbaacba  killed in two steps: p = 1, y = b, through bcabbcbaacbaccbaacaa bcabbcbaacbaccbaacbb
+acbaaabcaabcbbacccba  killed in two steps: p = 1, y = b, through bcbaaabcaabcbbacccaa bcbaaabcaabcbbacccbb
+acbaaabcaabcccabbcba  killed in two steps: p = 1, y = b, through bcbaaabcaabcccabbcaa bcbaaabcaabcccabbcbb
+acbaaabcccbaacabbcba  killed in two steps: p = 1, y = b, through bcbaaabcccbaacabbcaa bcbaaabcccbaacabbcbb
+acbaacabbcbaacbaccba  killed in two steps: p = 1, y = b, through bcbaacabbcbaacaaccba bcbaacabbcbaacbbccba bcbaacabbcbaacbaccaa bcbaacabbcbaacbaccbb
+acbaacbbacbaacbccaba  killed in two steps: p = 1, y = b, through bcbaacbbacbaacaccaba bcbaacbbacbaacbccbba bcbaacbbacbaacbccaaa bcbaacbbacbaacbccabb
+acbaacbbacbbabccacbb  killed in two steps: p = 1, y = b, through bcbaacbbacbbabccacab
+acbaacbbbaccbcaabcaa  killed in two steps: p = 1, y = b, through bcbaacbbbaccbcaabcab
+acbaacbccabaacbaacbb  killed in two steps: p = 1, y = b, through bcbaacbccabaacbaacab
+acbaacbccabaacbbbcaa  killed in two steps: p = 1, y = b, through bcbaacbccabaacbbbcab
+acbaacbccabbbcaabcaa  killed in two steps: p = 1, y = b, through bcbaacbccabbbcaabcab
+acbaccbaacbaacabbcba  killed in two steps: p = 1, y = b, through bcbaccbaacbaacabbcaa bcbaccbaacbaacabbcbb
+acbaccbabbcaccbaccba  killed in two steps: p = 1, y = b, through bcbaccbabbcbccbaccba bcbaccbabbcaccaaccba bcbaccbabbcaccbbccba bcbaccbabbcaccbaccaa bcbaccbabbcaccbaccbb
+acbbabccabcaabccabcc  killed in two steps: p = 1, y = b, through bcbbabccabcbabccabcc
+acbbabccabcccbaaabcc  killed in two steps: p = 1, y = b, through bcbbabccabcccbababcc
+acbbabccabcccbaccbaa  killed in two steps: p = 1, y = b, through bcbbabccabcccbaccbab
+acbbabccacbbacbaacbb  killed in two steps: p = 1, y = b, through bcbbabccacbbacbaacab
+acbbabccacbbacbbbcaa  killed in two steps: p = 1, y = b, through bcbbabccacbbacbbbcab
+acbbacaabcbbacbbaccb  killed in two steps: p = 1, y = b, through bcbbacaabcbbacabaccb
+acbbacaabcbbacccabbb  killed in two steps: p = 1, y = b, through bcbbacaabcbbacccabab
+acbbacaabcccabbcabbb  killed in two steps: p = 1, y = b, through bcbbacaabcccabbcabab
+acbbacbaacbbacbbabcc  killed in two steps: p = 1, y = b, through bcbbacbaacbbacababcc
+acbbacbaacbccabaacba  killed in two steps: p = 1, y = b, through bcbbacbaacbccabaacaa bcbbacbaacbccabaacbb
+acbbacbbabccacbbacba  killed in two steps: p = 1, y = b, through bcbbacbbabccacbbacaa bcbbacbbabccacbbacbb
+acbbacbbbcaaacbbabcc  killed in two steps: p = 1, y = b, through bcbbacbbbcaaacababcc
+acbbacbbbcabbcaaabcc  killed in two steps: p = 1, y = b, through bcbbacbbbcabbcababcc
+acbbacbbbcabbcaccbaa  killed in two steps: p = 1, y = b, through bcbbacbbbcabbcaccbab
+acbbaccbacbbacaabcbb  killed in two steps: p = 1, y = b, through bcbbaccbacbbacaabcab
+acbbaccbaccbcaabaccb  killed in two steps: p = 1, y = b, through bcbbaccbaccbcbabaccb
+acbbacccbaacabbcabbb  killed in two steps: p = 1, y = b, through bcbbacccbaacabbcabab
+acbbbaccbacccabccaba  killed in two steps: p = 1, y = b, through bcbbbaccbacccbbccaba bcbbbaccbacccaaccaba bcbbbaccbacccabccbba bcbbbaccbacccabccaaa bcbbbaccbacccabccabb
+acbbbaccbcaabcaaacba  killed in two steps: p = 1, y = b, through bcbbbaccbcaabcaaacaa bcbbbaccbcaabcaaacbb
+acbbbcaaacbaacbccaba  killed in two steps: p = 1, y = b, through bcbbbcaaacbaacaccaba bcbbbcaaacbaacbccbba bcbbbcaaacbaacbccaaa bcbbbcaaacbaacbccabb
+acbbbcaaacbbabccacbb  killed in two steps: p = 1, y = b, through bcbbbcaaacbbabccacab
+acbbbcaabaccbcaabcaa  killed in two steps: p = 1, y = b, through bcbbbcaabaccbcaabcab
+acbbbcabbcaaabccacbb  killed in two steps: p = 1, y = b, through bcbbbcabbcaaabccacab
+acbbbcabbcaccbaaacbb  killed in two steps: p = 1, y = b, through bcbbbcabbcaccbaaacab
+acbbbcabbcaccbabbcaa  killed in two steps: p = 1, y = b, through bcbbbcabbcaccbabbcab
+acbccabaacbaacbbacba  killed in two steps: p = 1, y = b, through bcbccabaacbaacbbacaa bcbccabaacbaacbbacbb
+acbccabaacbbbcaaacba  killed in two steps: p = 1, y = b, through bcbccabaacbbbcaaacaa bcbccabaacbbbcaaacbb
+acbccabbbacccabccaba  killed in two steps: p = 1, y = b, through bcbccabbbacccbbccaba bcbccabbbacccaaccaba bcbccabbbacccabccbba bcbccabbbacccabccaaa bcbccabbbacccabccabb
+acbccabbbcaabcaaacba  killed in two steps: p = 1, y = b, through bcbccabbbcaabcaaacaa bcbccabbbcaabcaaacbb
+acbccabccabbcabccaba  killed in two steps: p = 1, y = b, through bcbccabccabbcbbccaba bcbccabccabbcaaccaba bcbccabccabbcabccbba bcbccabccabbcabccaaa bcbccabccabbcabccabb
+accbaaabcccbaccbabbc  killed in two steps: p = 1, y = b, through bccbababcccbaccbabbc
+accbaaacbbabccabcccb  killed in two steps: p = 1, y = b, through bccbabacbbabccabcccb
+accbaaacbbacbbbcabbc  killed in two steps: p = 1, y = b, through bccbabacbbacbbbcabbc
+accbaacbaacabbcbaacb  killed in two steps: p = 1, y = b, through bccbabcbaacabbcbaacb
+accbaacbaccbabbcaccb  killed in two steps: p = 1, y = b, through bccbabcbaccbabbcaccb
+accbabbcaaabccabcccb  killed in two steps: p = 1, y = b, through bccbabacaaabccabcccb
+accbabbcaaacbbbcabbc  killed in two steps: p = 1, y = b, through bccbabacaaacbbbcabbc
+accbabbcabbcaabcabbc  killed in two steps: p = 1, y = b, through bccbabacabbcaabcabbc
+accbabbcaccbaaabcccb  killed in two steps: p = 1, y = b, through bccbabacaccbaaabcccb
+accbabbcaccbaccbaacb  killed in two steps: p = 1, y = b, through bccbabacaccbaccbaacb
+accbacbbacaabcbbacbb  killed in two steps: p = 1, y = b, through bccbacbbacaabcbbacab
+accbacbbaccbaccbcaab  killed in two steps: p = 1, y = b, through bccbacbbaccbaccbcbab
+accbaccbaacbaccbabbc  killed in two steps: p = 1, y = b, through bccbaccbabcbaccbabbc
+accbaccbcaabaccbacbb  killed in two steps: p = 1, y = b, through bccbaccbcaabaccbacab
+accbacccabbbaccbcaab  killed in two steps: p = 1, y = b, through bccbacccabbbaccbcbab
+accbacccabccabaacbbb  killed in two steps: p = 1, y = b, through bccbacccabccabaacbab
+accbacccabccabbbcaab  killed in two steps: p = 1, y = b, through bccbacccabccabbbcbab
+accbcaabaccbacbbaccb  killed in two steps: p = 1, y = b, through bccbcaabaccbacabaccb
+accbcaabaccbacccabbb  killed in two steps: p = 1, y = b, through bccbcaabaccbacccabab
+accbcaabcaaacbaacbbb  killed in two steps: p = 1, y = b, through bccbcaabcaaacbaacbab
+accbcaabcaaacbbbcaab  killed in two steps: p = 1, y = b, through bccbcaabcaaacbbbcbab
+accbcaabcabbcaabcaab  killed in two steps: p = 1, y = b, through bccbcaabcabbcaabcbab
+acccabbbacbbacaabcbb  killed in two steps: p = 1, y = b, through bcccabbbacbbacaabcab
+acccabbbaccbcaabaccb  killed in two steps: p = 1, y = b, through bcccabbbaccbcbabaccb
+acccabbcbaacabbcabbb  killed in two steps: p = 1, y = b, through bcccabbcbaacabbcabab
+acccabccabaacbbbaccb  killed in two steps: p = 1, y = b, through bcccabccabaacbabaccb
+acccabccabaacbccabbb  killed in two steps: p = 1, y = b, through bcccabccabaacbccabab
+acccabccabbbcaabaccb  killed in two steps: p = 1, y = b, through bcccabccabbbcbabaccb
+acccbaacabbcabbbacbb  killed in two steps: p = 1, y = b, through bcccbaacabbcabbbacab
+acccbaacbaaabcaabcbb  killed in two steps: p = 1, y = b, through bcccbaacbaaabcaabcab

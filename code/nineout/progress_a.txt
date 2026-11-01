@@ -1,0 +1,34 @@
+31 Oct 13:13  === nine a: N in [19, 23], 4 workers, stops after 8.0 h ===
+31 Oct 13:13  N=19: kernel by rotation characters, start
+31 Oct 13:15  N=19: kernel done (1.5 min)
+31 Oct 13:15  N=19: quadrics, 4 workers, start
+31 Oct 14:01  N=19: quadrics done (47.5 min)
+31 Oct 14:01  N=19: certificates
+31 Oct 14:01  N=19: files ['nineout/nineteen/nineforms_b.npz', 'nineout/nineteen/nineforms_c.npz', 'nineout/nineteen/nineforms_d.npz'], configurations done 67 of 90; blocks [37, 33, 33, 36, 33, 33, 36, 33, 33]
+31 Oct 14:01  N=19: character 0: dim 37, restricted span 117 of 703; best min eigenvalue 1.177e-02 (max 4.687e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 1: dim 33, restricted span 117 of 561; best min eigenvalue 1.230e-02 (max 4.790e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 2: dim 33, restricted span 117 of 561; best min eigenvalue 1.432e-02 (max 4.186e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 3: dim 36, restricted span 117 of 666; best min eigenvalue 1.377e-02 (max 4.117e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 4: dim 33, restricted span 117 of 561; best min eigenvalue 1.635e-02 (max 4.343e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 5: dim 33, restricted span 117 of 561; best min eigenvalue 1.635e-02 (max 4.343e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 6: dim 36, restricted span 117 of 666; best min eigenvalue 1.377e-02 (max 4.117e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 7: dim 33, restricted span 117 of 561; best min eigenvalue 1.432e-02 (max 4.190e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: character 8: dim 33, restricted span 117 of 561; best min eigenvalue 1.230e-02 (max 4.790e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:01  N=19: ALL BLOCKS EXCLUDED BY POSITIVITY
+31 Oct 14:01  N=23: kernel by rotation characters, start
+31 Oct 14:03  N=23: kernel done (1.5 min)
+31 Oct 14:03  N=23: quadrics, 4 workers, start
+31 Oct 14:59  N=23: quadrics done (57.5 min)
+31 Oct 14:59  N=23: certificates
+31 Oct 14:59  N=23: files ['nineout/twentythree/nineforms_a.npz', 'nineout/twentythree/nineforms_b.npz', 'nineout/twentythree/nineforms_c.npz', 'nineout/twentythree/nineforms_d.npz'], configurations done 90 of 90; blocks [37, 33, 33, 36, 33, 33, 36, 33, 33]
+31 Oct 14:59  N=23: character 0: dim 37, restricted span 117 of 703; best min eigenvalue 1.405e-02 (max 4.662e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 1: dim 33, restricted span 117 of 561; best min eigenvalue 1.414e-02 (max 4.830e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 2: dim 33, restricted span 117 of 561; best min eigenvalue 1.677e-02 (max 4.226e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 3: dim 36, restricted span 117 of 666; best min eigenvalue 1.579e-02 (max 4.175e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 4: dim 33, restricted span 117 of 561; best min eigenvalue 1.852e-02 (max 4.333e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 5: dim 33, restricted span 117 of 561; best min eigenvalue 1.852e-02 (max 4.333e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 6: dim 36, restricted span 117 of 666; best min eigenvalue 1.579e-02 (max 4.177e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 7: dim 33, restricted span 117 of 561; best min eigenvalue 1.677e-02 (max 4.225e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: character 8: dim 33, restricted span 117 of 561; best min eigenvalue 1.414e-02 (max 4.830e-01) -> POSITIVE DEFINITE: block excluded
+31 Oct 14:59  N=23: ALL BLOCKS EXCLUDED BY POSITIVITY
+31 Oct 14:59  === nine a: done ===

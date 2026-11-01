@@ -1,0 +1,17 @@
+31 Oct 13:31  projective.py hyper
+  N=3: dim C_<O_N^-1, H_N^+>(k) (and dim TL(k)) for k = 4, 6, 8: {4: (2, 2), 6: (5, 5), 8: (14, 14)}  = O_N^+
+  N=4: dim C_<O_N^-1, H_N^+>(k) (and dim TL(k)) for k = 4, 6, 8: {4: (2, 2), 6: (5, 5), 8: (14, 14)}  = O_N^+
+31 Oct 13:32  projective.py det
+  U_4^2 at the color pattern of 8 white legs: 70 vectors eps_A (x) eps_B of rank 14, 1430 noncrossing vectors of rank 1430, joint rank 1444: intersection of dimension 0  (29s)
+  N=3, generators in S_2..S_5; reference dims {4: {'Br': 3, 'HL': 2, 'TL': 2}, 6: {'Br': 15, 'HL': 6, 'TL': 5}, 8: {'Br': 91, 'HL': 23, 'TL': 14}}; positions M: ['I', 'random 1', 'random 2']
+  103796 tuples, 119 distinct law sets  (88s)
+  classical PG: 30 law sets, non-classical: 89; unexpected outcomes: 0  (113s)
+31 Oct 13:34  projective.py duals
+  N=3, generators in S_2..S_5; reference dims {4: {'Br': 3, 'HL': 2, 'TL': 2}, 6: {'Br': 15, 'HL': 6, 'TL': 5}, 8: {'Br': 91, 'HL': 23, 'TL': 14}}; positions M: ['I', 'random 1', 'random 2']
+  103796 tuples, 119 distinct law sets  (84s)
+  classical PG: 30 law sets, non-classical: 89; unexpected outcomes: 0  (108s)
+  N=4, generators in S_2..S_4; reference dims {4: {'Br': 3, 'HL': 2, 'TL': 2}, 6: {'Br': 15, 'HL': 6, 'TL': 5}, 8: {'Br': 105, 'HL': 24, 'TL': 14}}; positions M: ['I', 'random 1', 'random 2']
+  69784 tuples, 611 distinct law sets  (402s)
+dualsfour run
+  N=4, generators in S_2..S_4; reference dims {4: {'Br': 3, 'HL': 2, 'TL': 2}, 6: {'Br': 15, 'HL': 6, 'TL': 5}, 8: {'Br': 105, 'HL': 24, 'TL': 14}}; positions M: ['I', 'random 1', 'random 2']
+  69784 tuples, 611 distinct law sets  (391s)
