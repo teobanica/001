@@ -1,0 +1,11 @@
+{
+  "title": "On the maximality conjecture for quantum permutation groups",
+  "description": "Paper (68 pages, PDF and LaTeX source) and the complete code behind its computational statements. The quantum permutation group S_N^+ contains S_N, and the maximality conjecture states that there is no quantum group strictly in between. We revisit the conjecture with three approaches: quantum subgroups as seeds, the theory of a hypothetical exotic intermediate quantum group, and the level-by-level analysis of the intermediate tensor categories, which is the main contribution: the conjecture holds up to level 7 for all N &ge; 6, level 8 is closed computationally for 8 &le; N &le; 37, and level 9 numerically at eight values of N. Orthogonal and projective versions are discussed as well.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {"name": "Claude"},
+    {"name": "Teo", "orcid": "0000-0003-4680-0364"}
+  ],
+  "keywords": ["quantum permutation groups", "maximality conjecture", "easy quantum groups", "Tannakian duality", "computer-assisted proofs"]
+}
